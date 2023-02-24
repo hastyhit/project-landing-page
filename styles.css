@@ -1,0 +1,168 @@
+/* top part css */
+
+.top {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 0px;;
+}
+
+.leftlinks {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+span {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8
+}
+
+.herotext {
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.secondarytext {
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 0px;
+
+}
+
+.topfirst {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 160px 15px 160px;
+}
+
+body  {
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topsecond {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 160px 100px 160px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 6px 25px 10px 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* second part */
+.topplayers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px 100px 40px;
+}
+
+.headline {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+
+.p1, .p2, .p3, .p4 {
+    max-width: 200px;
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    margin-top: 32px;
+    gap: 52px;
+   
+  }
+
+  .playersdetail {
+    padding: 0px 40px 40px 40px;
+  }
+
+/* third */
+.about {
+    background-color: #E5E7EB;
+    padding: 100px 200px 100px 200px;
+}
+
+.aboutpara {
+    color:#1F2937;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.quote {
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+    font-size: 20;
+    font-weight: bolder;
+}
+
+/* second last part */
+
+.secondlast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 100px 160px 100px 160px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.bt {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+#lowerbutton {
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 40px;
+    font-size: 16px;
+}
